@@ -15,7 +15,7 @@ MINIO_ROOT_PASSWORD=password
 To begin, create a custom bridge network for Docker:
 
 ```sh
-docker compose create --driver bridge minio-network
+docker network create --driver bridge minio-network
 ```
 
 ### 3. Start Docker 🚀
